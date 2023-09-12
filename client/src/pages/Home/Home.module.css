@@ -101,11 +101,40 @@
     line-height: normal;
     letter-spacing: 2.3px;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px var(--grey);
+    -webkit-text-stroke: 3px var(--grey);
 }
 
-.wrapMeetings {
+.screen3 {
+    position: relative;
+    height: 588px;
+    background-image: url('../../assets/screen3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 65px;
+}
+
+.superMeet {
+    position: absolute;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    top: 50%;
+    right: 20%;
+}
+
+.screen5 {
+    position: relative;
+    height: 588px;
+    background-image: url('../../assets/screen5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 65px;
+    margin-bottom: 60px;
+}
+
+.myMeet {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    left: 10%;
 }

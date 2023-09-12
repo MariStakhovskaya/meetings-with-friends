@@ -1,18 +1,16 @@
 import Header from '../../components/Header/Header';
-import Meeting from '../../components/Meeting/Meeting';
-
-import meet1 from '../../assets/meet1.png';
 
 import styles from './Home.module.css';
+import Meetings from '../../components/Meetings/Meetings';
+import Button from '../../common/Button/Button';
 
 function Home() {
 
     return (
         <div className={styles.wrap}>
 
-            <div className={styles.container}>
-
-                <div className={styles.screen1}>
+            <div className={styles.screen1}>
+                <div className={styles.container}>
                     <Header />
 
                     <div className={styles.woman}>
@@ -27,38 +25,40 @@ function Home() {
                     <h1 className={styles.headerTitle}>События города для всех и каждого</h1>
                     <div className={styles.headerDescription}> Давайте вместе проводить время. Давайте организовывать встречи и ходить на мероприятия. Давайте создавать свои события.</div>
                 </div>
-                <div className={styles.screen2}>
+            </div>
+            <div className={styles.screen2}>
+                <div className={styles.container}>
                     <h2><span className={styles.meeting}>Мероприятия</span><span className={styles.titleCity}> в Касселе</span></h2>
-                    <div className={styles.wrapMeetings}>
-                        <Meeting
-                            title={'спорт укрепляет здоровье игра в бейсбол между командами города'}
-                            url={meet1}
-                            date={'1 СЕНТЯБРЯ'}
-                            category={'СПОРТ'}
-                            alt={'аука ауа'} />
-                        <Meeting
-                            title={'спорт укрепляет здоровье игра в бейсбол между командами города'}
-                            url={meet1}
-                            date={'1 СЕНТЯБРЯ'}
-                            category={'СПОРТ'}
-                            alt={'аука ауа'} />
-                        <Meeting
-                            title={'спорт укрепляет здоровье игра в бейсбол между командами города'}
-                            url={meet1}
-                            date={'1 СЕНТЯБРЯ'}
-                            category={'СПОРТ'}
-                            alt={'аука ауа'} />
-                        <Meeting
-                            title={'спорт укрепляет здоровье игра в бейсбол между командами города'}
-                            url={meet1}
-                            date={'1 СЕНТЯБРЯ'}
-                            category={'СПОРТ'}
-                            alt={'аука ауа'} />
-
-                    </div>
-
+                    <Meetings />
                 </div>
             </div>
+            <div className={styles.screen3}>
+                <div className={styles.superMeet}>
+                    <span>Знаешь крутое мероприятие города? </span>
+                    <Button title='поделись с другими' />
+                </div>
+
+            </div>
+            <div className={styles.screen4}>
+                <div className={styles.container}>
+                    <h2><span className={styles.titleCity}>Ближайшие</span><span className={styles.meeting}> встречи</span></h2>
+                    <Meetings />
+                </div>
+            </div>
+            <div className={styles.screen5}>
+                <div className={styles.myMeet}>
+                    <span>Хочешь организовать встречу друзей?  </span>
+                    <Button title='действуй' />
+                </div>
+
+            </div>
+            <div className={styles.screen6}>
+                <div className={styles.container}>
+                    <h2><span className={styles.meeting}>Интересные</span><span className={styles.titleCity}> мероприятия</span> <span className={styles.meeting}>мира</span></h2>
+                    <Meetings />
+                </div>
+            </div>
+
 
         </div>
 
