@@ -78,3 +78,34 @@
     font-style: normal;
     font-weight: 400;
 }
+
+.screen2 {
+    margin: 80px 0px;
+}
+
+.meeting {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--orange);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110%;
+    /* 55px */
+}
+
+.titleCity {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.3px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px var(--grey);
+}
+
+.wrapMeetings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

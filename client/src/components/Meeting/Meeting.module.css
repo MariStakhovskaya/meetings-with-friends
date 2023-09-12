@@ -1,0 +1,33 @@
+.oneMeeting {
+    width: 365px;
+}
+
+.aboutMeeting {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 16.8px */
+    text-transform: uppercase;
+    margin: 10px 0px 8px 0px;
+}
+
+.dateMeeting {
+    color: var(--grey);
+}
+
+.categoryMeeting {
+    color: var(--orange);
+}
+
+.titleMeeting {
+    color: var(--black);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
