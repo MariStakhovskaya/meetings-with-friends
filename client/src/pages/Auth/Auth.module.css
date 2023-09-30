@@ -169,11 +169,6 @@
   text-align: center;
   transform: translateY(0);
   transition: transform .6s ease-in-out;
-
-  /* background-image: url(../../assets/woman.png);
-  background-repeat: no-repeat;
-  background-size: 426px 584px;
-  background-position: top 120px right -166px; */
 }
 
 .overlay_left .auth_text {
@@ -231,13 +226,3 @@
 .right_panel_active .overlay_right {
   transform: translateY(20%);
 }
-
-/* .right_panel_active .overlay_panel {
-  transform: scale(-1, 1);
-} */
-
-/* .right_panel_active .overlay_panel h2,
-.right_panel_active .overlay_panel p,
-.right_panel_active .overlay_panel button {
-  transform: scale(-1, 1);
-} */
