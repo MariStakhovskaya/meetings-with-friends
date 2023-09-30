@@ -1,4 +1,5 @@
 import './App.css'
+import Auth from './pages/Auth/Auth'
 import Home from './pages/Home/Home'
 
 function App() {
@@ -6,7 +7,8 @@ function App() {
   return (
     <>
       {/*Routes */}
-      <Home />
+     {/*  <Home /> */}
+      <Auth />
     </>
   )
 }
