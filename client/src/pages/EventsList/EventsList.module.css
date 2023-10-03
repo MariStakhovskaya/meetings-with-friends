@@ -1,0 +1,10 @@
+.eventsList_container {
+
+}
+
+.eventsList_cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
