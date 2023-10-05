@@ -12,13 +12,13 @@ function Footer() {
       </div>
       <div className={styles.footer_contacts}>
         <a className={styles.contacts_link} href="#">
+          Ludmila Drozd
+        </a>
+        <a className={styles.contacts_link} href="#">
           Maria Stachovski
         </a>
         <a className={styles.contacts_link} href="#">
           Yuliya Lobzha
-        </a>
-        <a className={styles.contacts_link} href="#">
-          Ludmila Drozd
         </a>
       </div>
     </footer>
