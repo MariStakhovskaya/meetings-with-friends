@@ -1,0 +1,39 @@
+.comment_container {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.comment_header {
+  margin-bottom: 10px;
+}
+
+.comment_header p {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.comment_name {
+  color: var(--black);
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 1.6px;
+}
+
+.comment_date {
+  color: var(--lightGray);
+  text-align: right;
+  font-size: 14px;
+  line-height: 120%;
+}
+
+.comment_text {
+  color: var(--black);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  text-align: justify;
+}

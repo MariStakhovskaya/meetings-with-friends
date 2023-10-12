@@ -5,22 +5,17 @@ import EventsListCard from '../../components/EventsListCard/EventsListCard';
 
 import { eventsListButtons, eventsListCards } from '../../constants/ui';
 
-import arrow from '../../assets/arrowBack.png';
 import sorting from '../../assets/sorting-select.png';
 
 import styles from './EventsList.module.css';
+import ArrowBack from '../../components/ArrowBack/ArrowBack';
 
 function EventsList() {
   return (
     <>
       <Header />
       <div className={styles.eventsList_container}>
-        <div className={styles.eventsList_header}>
-          <div className={styles.arrow_container}>
-            <img src={arrow} alt="Arrow Back" />
-          </div>
-          <h2>Список событий</h2>
-        </div>
+        <ArrowBack title="Список событий" />
 
         <div className={styles.eventsList_nav}>
           <ul className={styles.eventsList_sorting}>
